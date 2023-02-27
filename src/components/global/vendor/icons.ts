@@ -1,9 +1,10 @@
-import { Moon, Sun } from '@vicons/fa'
+import { Moon, Sun, SignOutAlt } from '@vicons/fa'
 import { App, Component } from 'vue'
 
 const icons: Record<string, Component> = {
   Moon,
-  Sun
+  Sun,
+  SignOutAlt
 }
 
 export default {
